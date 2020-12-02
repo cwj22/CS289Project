@@ -1,3 +1,8 @@
+# Team Names
+Catherine Weaver
+Sara Shonkwiler
+Jose Zavala
+
 # Learning a Racing Strategy from the Geometric Features of a Racetrack
 Finding a trajectory that minimizes the lap time of a car around a racetrack is a key step in optimal control of racecars. Formulating the minimum time problem can be difficult to solve because of the nonlinear vehicle dynamics. However, the problem can be simplified into two steps: path planning and velocity maximization. In this code we assume the optimal path has already been found, and we try to learn a method to calculate the maximum velocity a vehicle can achieve given its path. Three hyperparameters control the models learnt:
 •	La: number of lookahead points 
